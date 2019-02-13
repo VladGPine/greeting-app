@@ -22,12 +22,10 @@ const App = props => {
     styles.backgroundColor = "#1f263b";
   }
 
-  console.log({hours});
+  // console.log({hours});
 
   return (
     <h1 style={styles}>Good {dayTime}</h1>
-    
   )
-
 }
 export default App;
